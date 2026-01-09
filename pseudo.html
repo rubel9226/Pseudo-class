@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo</title>
+    <style>
+        h2{
+            color: peru;
+        }
+        /* hover means mouse over  */
+        h2:hover{
+            color: orange;
+            background-color: skyblue;
+        }
+        input:focus{
+            color: blue;
+            outline: 0;
+            border: 1px solid purple;
+            border-radius: 4px;
+        }
+        a:visited{
+           color: gray; 
+        }
+        /* li:last-child{
+            color: red;
+        } */
+        /* li:first-child{
+            background-color: aquas;
+        } */
+
+        li:nth-child(3n+1){
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+    <h2>My Heading</h2>
+    <input type="text">
+    <input type="text">
+    <input type="text">
+    <a href="https://google.com/">Google</a>
+    <a href="https://www.cia.gov/the-world-factbook/countries/madagascar/">Madagascar</a>
+    <ul>
+        <li>sayma</li>
+        <li>Lima</li>
+        <li>Rukaiya</li>
+        <li>Sadik</li>
+        <li>Rubel</li>
+    </ul>
+
+
+
+
+</body>
+</html>
